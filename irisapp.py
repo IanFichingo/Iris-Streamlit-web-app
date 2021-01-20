@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.svm import SVC
+import sklearn
 
 #loading the trained model
 pickle_in = open('bestmodel.pkl', 'rb')
